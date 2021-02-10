@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- https://tailwindcss.com/docs/installation -->
+  <!-- Using Tailwind via CDN -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+        font-family: 'Prompt', serif;
+    }
+
+    .carousel-indicator {
+   position: relative;
+   bottom: -50px;
+ }
+
+    .hr1{
+      width:23%;
+      text-align:left;
+      margin-left: 280px;
+      color: #40c3a7;
+    }
+
+    .hr2{
+      width:23%;
+      text-align:left;
+      margin-left: 880px;
+      color: #40c3a7;
+    }
+  </style>
+  
+</head>
+
+<!-- Web origin -->
+<!-- https://seniorproject.sit.kmutt.ac.th/ -->
+
+<body>
+  
+<h1></h1>
+<nav class="navbar navbar-light bg-white border-b-2 border-fuchsia-600 pt-0 pb-0">
+
+  <div class="container-fluid pl-8 ">
+
+    <a class="navbar-brand " >
+      <img  src="./images/logo.png" alt="" width="119" height="53" class="d-inline-block align-top ">
+      <img  src="./images/sit-25-years-logo.png" alt="" width="66.88" height="53" class="d-inline-block align-top ">
+      <a class="absolute left-80 font-medium text-lg hover:text-green-300" href="https://seniorproject.sit.kmutt.ac.th/home/search">HOME</a>
+    </a>
+
+    <nav class="navbar absolute left-96 pt-4">
+      <div class="input-group mb-3">
+
+        <form class="d-flex"> </form>
+        <input type="text" class="form-control" type="search" placeholder="What's your looking for?" aria-label="Search">
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">2021</button>
+          <select class="dropdown-menu dropdown-menu-end">
+            <option>ALL YEARS
+            <option>2016
+            <option>2017
+            <option>2018
+            <option>2019
+            <option>2020
+            <option>2021
+          </select>
+          <button type="button" class="btn btn-outline-secondary"><span class="material-icons">search</span></button>  
+        
+
+      </div>
+    </nav>
+ 
+    <a class="font-medium text-lg hover:text-green-300 pr-9">Login</a>
+    
+  
+  </div>
+</nav>
+
+<p class="text-base font-light text-gray-400 text-center pt-6 py-3">ผลงานนักศึกษาคณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
+
+  <hr class="hr1 pt-1 ">
+  <hr class="hr2 pt-1 ">
+  <p class=" font-semibold  text-xl font-light text-gray-400 text-center py-1">RECOMMEND PROJECTS</p>
+
+
+<div class="px-48">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+    <ol class="carousel-indicators pt-96">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/posterCS60-RE77.jpg" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterCS60-RE14.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterIT60-BU55.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterIT60-BU56.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterIT60-BU57.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterIT60-BU63.png" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="./images/posterIT60-BU65.png" class="d-block w-100" >
+    </div>
+
+  </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+</div>
+<div class="pt-6">
+<hr class="hr1 pt-1 pt-1">
+<hr class="hr2 pt-1 pt-1">
+</div>
+<div class="flex justify-center"><a href="https://seniorproject.sit.kmutt.ac.th/home" class="font-medium text-lg text-green-300 text-center py-1">Click here to see more</a></div>
+
+<div class="flex justify-center">
+  <nav class="navbar navbar-light bg-white border-t-2 border-fuchsia-600 pt-0 pb-0">
+    <nav>
+      <div class="container-fluid ">
+        <nav class="navbar mx-96 ">
+          <img  src="./images/logo-sit.gif" alt="sit-25-years-logo" width="95.72" height="50" class="d-inline-block" >
+            <div>
+              <p>SCHOOL OF INFORMATION TECHNOLOGY</p>
+              <p>King Mongkut's University of Technology Thonburi</p>
+            </div>
+        </nav>  
+      </div>
+    </nav>
+  </nav>
+</div>
+
+</body>
+</html>
